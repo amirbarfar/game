@@ -3,10 +3,10 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 // import { useState } from "react";
 
-interface TypeArrayImage {
-  id: number,
-  img: string
-}
+// interface TypeArrayImage {
+//   id: number,
+//   img: string
+// }
 
 export default function Home() {
 
