@@ -1,7 +1,7 @@
 'use client'
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
-import { useState } from "react";
+// import { useState } from "react";
 
 interface TypeArrayImage {
   id: number,
@@ -10,12 +10,12 @@ interface TypeArrayImage {
 
 export default function Home() {
 
-  const [arrayImage, setArrayImage] = useState([
-    { id: 1, img: "/images/header-1.png" },
-    { id: 2, img: "/images/header-1.png" },
-    { id: 3, img: "/images/header-1.png" },
-    { id: 4, img: "/images/header-1.png" }
-  ])
+  // const [arrayImage, setArrayImage] = useState([
+  //   { id: 1, img: "/images/header-1.png" },
+  //   { id: 2, img: "/images/header-1.png" },
+  //   { id: 3, img: "/images/header-1.png" },
+  //   { id: 4, img: "/images/header-1.png" }
+  // ])
 
   return (
     <div className="bg-slate-900 min-h-screen px-20 py-12">
